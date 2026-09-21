@@ -35,7 +35,7 @@ You will walk through the onboarding (OOBE) on first launch. Default PIN: **1234
 | Platform | URL |
 |---|---|
 | GitHub | <https://github.com/kevinananda2026/nyouos> |
-| Gitee | <https://gitee.com/black-kevin> |
+| Gitee | <https://gitee.com/kevinananda2026/nyouos> |
 
 ## Run locally
 
