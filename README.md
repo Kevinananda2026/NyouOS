@@ -35,7 +35,7 @@ NyouOS 是一个用 Web 技术写的仿真桌面系统——它在浏览器里�
 | 平台 | 地址 |
 |---|---|
 | GitHub | <https://github.com/kevinananda2026/nyouos> |
-| Gitee | <https://gitee.com/black-kevin> |
+| Gitee | <https://gitee.com/kevinananda2026/nyouos> |
 
 ## 本地运行
 
