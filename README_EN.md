@@ -24,6 +24,10 @@ NyouOS is a simulated desktop environment built with Web technologies. It gives 
 
 All your data stays in your own browser (localStorage / IndexedDB). Nothing is uploaded to any server.
 
+## Notes
+
+Please do not download the code directly, otherwise it won’t be the latest NyouOS source code. Please go to the Releases page to download the latest version.
+
 ## Try it online
 
 Open 👉 **https://nyouos.pages.dev/27.0/**
