@@ -2,16 +2,16 @@
 
 <img src="Theme/Icon/nyouos_logo.png" alt="NyouOS" width="96" height="96" style="border-radius:20px">
 
-# NyouOS
+# RynoOS
 
 **跑在浏览器里的 Fluent 风格桌面操作系统**
 
 纯 HTML + CSS + JavaScript，无需后端，打开即用。
 
-[**🌐 在线体验**](https://nyouos.pages.dev/27.0/) · [English README](README_EN.md)
+[**🌐 在线体验**](https://rynoos.pages.dev/27.1/) · [English README](README_EN.md)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
-![Version](https://img.shields.io/badge/version-27.0-blue)
+![Version](https://img.shields.io/badge/version-27.1-blue)
 ![Web](https://img.shields.io/badge/runs%20in-browser-red)
 
 </div>
@@ -20,17 +20,17 @@
 
 ## 这是什么？
 
-NyouOS 是一个用 Web 技术写的仿真桌面系统——它在浏览器里模拟了一个完整的桌面环境：开始菜单、任务栏、多窗口、文件管理、设置、通知中心、控制中心、小组件，还有一个能帮你操作系统的 AI 助手 **Daola**。
+RynoOS 是一个用 Web 技术写的仿真桌面系统——它在浏览器里模拟了一个完整的桌面环境：开始菜单、任务栏、多窗口、文件管理、设置、通知中心、控制中心、小组件，还有一个能帮你操作系统的 AI 助手 **Daola**。
 
 所有数据都存在你自己的浏览器里（localStorage / IndexedDB），不上传任何服务器。
 
 ## 注意事项
 
-请不要直接下载代码，否则将不是最新的NyouOS源代码，请前往 发行版 页面下载最新版本。
+请不要直接下载代码，否则将不是最新的RynoOS源代码，请前往 发行版 页面下载最新版本。
 
 ## 在线体验
 
-直接打开 👉 **https://nyouos.pages.dev/27.0/**
+直接打开 👉 **https://nyouos.pages.dev/27.1/**
 
 首次进入会走开机引导（OOBE），默认 PIN：**1234**。
 
@@ -38,16 +38,16 @@ NyouOS 是一个用 Web 技术写的仿真桌面系统——它在浏览器里�
 
 | 平台 | 地址 |
 |---|---|
-| GitHub | <https://github.com/kevinananda2026/nyouos> |
-| Gitee | <https://gitee.com/kevinananda2026/nyouos> |
+| GitHub | <https://github.com/kevinananda2026/rynoos> |
+| Gitee | <https://gitee.com/kevinananda2026/rynoos> |
 
 ## 本地运行
 
 不需要构建工具， clone 后直接用任意静态服务器打开即可：
 
 ```bash
-git clone https://github.com/kevinananda2026/nyouos.git
-cd nyouos/27.0
+git clone https://github.com/kevinananda2026/rynoos.git
+cd rynoos/27.0
 # 任选一种方式：
 python -m http.server 8000
 # 或
@@ -85,7 +85,7 @@ npx serve .
 
 ## 开源许可
 
-NyouOS fork 自 [**FluentOS-On-Web**](https://github.com/YoYoPAN1115/FluentOS-On-Web)，原作者 **YoYoPAN1115**，原项目以 MIT 协议开源。
+RynoOS fork 自 [**FluentOS-On-Web**](https://github.com/YoYoPAN1115/FluentOS-On-Web)，原作者 **YoYoPAN1115**，原项目以 MIT 协议开源。
 
 - 原始代码：**MIT License**，版权归 YoYoPAN1115 所有
 - NyouOS 的修改与新增部分：**GPLv3 License**，版权归 KevinAnanda 所有
@@ -96,9 +96,9 @@ NyouOS fork 自 [**FluentOS-On-Web**](https://github.com/YoYoPAN1115/FluentOS-On
 
 ## 第三方商标
 
-应用商店中出现的微信、支付宝、淘宝、京东、抖音、Bilibili、QQ 音乐等名称与图标，仅用于说明第三方应用来源，其商标与图形版权归各自所有者所有。NyouOS 与上述公司无任何关联或授权关系。"Fluent Design" 是微软的设计语言，本项目与微软无关联。
+应用商店中出现的微信、支付宝、淘宝、京东、抖音、Bilibili、QQ 音乐等名称与图标，仅用于说明第三方应用来源，其商标与图形版权归各自所有者所有。RynoOS 与上述公司无任何关联或授权关系。"Fluent Design" 是微软的设计语言，本项目与微软无关联。
 
-详见 [商标声明](https://nyouos.pages.dev/trademark.html)。
+详见 [商标声明](https://rynoos.pages.dev/trademark.html)。
 
 ## 隐私
 
@@ -106,7 +106,7 @@ NyouOS fork 自 [**FluentOS-On-Web**](https://github.com/YoYoPAN1115/FluentOS-On
 - 系统数据全部保存在你的浏览器本地。
 - Daola AI 的 API Key 由你自己填写，对话由你的浏览器直接发送到你配置的 API 端点，不经过本站服务器。
 
-详见 [隐私说明](https://nyouos.pages.dev/about.html#privacy)。
+详见 [隐私说明](https://rynoos.pages.dev/about.html#privacy)。
 
 ## 联系
 
