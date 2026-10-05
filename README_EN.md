@@ -2,16 +2,16 @@
 
 <img src="Theme/Icon/nyouos_logo.png" alt="NyouOS" width="96" height="96" style="border-radius:20px">
 
-# NyouOS
+# RynoOS
 
 **A Fluent-style desktop operating system that runs in your browser**
 
 Pure HTML + CSS + JavaScript, no backend, works out of the box.
 
-[**🌐 Try it online**](https://nyouos.pages.dev/27.0/) · [中文说明](README.md)
+[**🌐 Try it online**](https://rynoos.pages.dev/27.1/) · [中文说明](README.md)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
-![Version](https://img.shields.io/badge/version-27.0-blue)
+![Version](https://img.shields.io/badge/version-27.1-blue)
 ![Web](https://img.shields.io/badge/runs%20in-browser-red)
 
 </div>
@@ -20,17 +20,17 @@ Pure HTML + CSS + JavaScript, no backend, works out of the box.
 
 ## What is this?
 
-NyouOS is a simulated desktop environment built with Web technologies. It gives you a full desktop in your browser: Start menu, taskbar, multi-window, file manager, settings, notification center, control center, widgets, and an AI assistant **Daola** that can operate the system for you.
+RynoOS is a simulated desktop environment built with Web technologies. It gives you a full desktop in your browser: Start menu, taskbar, multi-window, file manager, settings, notification center, control center, widgets, and an AI assistant **Daola** that can operate the system for you.
 
 All your data stays in your own browser (localStorage / IndexedDB). Nothing is uploaded to any server.
 
 ## Notes
 
-Please do not download the code directly, otherwise it won’t be the latest NyouOS source code. Please go to the Releases page to download the latest version.
+Please do not download the code directly, otherwise it won’t be the latest RynoOS source code. Please go to the Releases page to download the latest version.
 
 ## Try it online
 
-Open 👉 **https://nyouos.pages.dev/27.0/**
+Open 👉 **https://rynoos.pages.dev/27.1/**
 
 You will walk through the onboarding (OOBE) on first launch. Default PIN: **1234**.
 
@@ -38,16 +38,16 @@ You will walk through the onboarding (OOBE) on first launch. Default PIN: **1234
 
 | Platform | URL |
 |---|---|
-| GitHub | <https://github.com/kevinananda2026/nyouos> |
-| Gitee | <https://gitee.com/kevinananda2026/nyouos> |
+| GitHub | <https://github.com/kevinananda2026/rynoos> |
+| Gitee | <https://gitee.com/kevinananda2026/rynoos> |
 
 ## Run locally
 
 No build step required. Clone and serve the folder with any static file server:
 
 ```bash
-git clone https://github.com/kevinananda2026/nyouos.git
-cd nyouos/27.0
+git clone https://github.com/kevinananda2026/rynoos.git
+cd rynoos/27.0
 # pick one:
 python -m http.server 8000
 # or
@@ -85,7 +85,7 @@ Then open `http://localhost:8000/`.
 
 ## License
 
-NyouOS is a fork of [**FluentOS-On-Web**](https://github.com/YoYoPAN1115/FluentOS-On-Web), originally created by **YoYoPAN1115** and released under the MIT License.
+RynoOS is a fork of [**FluentOS-On-Web**](https://github.com/YoYoPAN1115/FluentOS-On-Web), originally created by **YoYoPAN1115** and released under the MIT License.
 
 - Original code: **MIT License**, copyright YoYoPAN1115
 - NyouOS modifications and additions: **GPLv3 License**, copyright KevinAnanda
@@ -96,9 +96,9 @@ If you distribute a modified version or deploy it as a public website, you must 
 
 ## Third-party trademarks
 
-The names and icons of WeChat, Alipay, Taobao, JD, Douyin, Bilibili, QQ Music and other third-party apps in the app store are used only to identify the origin of those apps. Their trademarks and graphic copyrights belong to their respective owners. NyouOS has no affiliation with, or endorsement from, those companies. "Fluent Design" is a design language of Microsoft; this project is not affiliated with Microsoft.
+The names and icons of WeChat, Alipay, Taobao, JD, Douyin, Bilibili, QQ Music and other third-party apps in the app store are used only to identify the origin of those apps. Their trademarks and graphic copyrights belong to their respective owners. RynoOS has no affiliation with, or endorsement from, those companies. "Fluent Design" is a design language of Microsoft; this project is not affiliated with Microsoft.
 
-See the [Trademark Notice](https://nyouos.pages.dev/trademark.html).
+See the [Trademark Notice](https://rynoos.pages.dev/trademark.html).
 
 ## Privacy
 
@@ -106,7 +106,7 @@ See the [Trademark Notice](https://nyouos.pages.dev/trademark.html).
 - All system data is stored locally in your browser.
 - The Daola AI API key is entered by you; your browser sends requests directly to the API endpoint you configure, never through this project's servers.
 
-See the [Privacy Notice](https://nyouos.pages.dev/about.html#privacy).
+See the [Privacy Notice](https://rynoos.pages.dev/about.html#privacy).
 
 ## Contact
 
